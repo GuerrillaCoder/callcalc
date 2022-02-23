@@ -1,0 +1,67 @@
+.App {
+  // text-align: center;
+  
+}
+
+#root{
+  height: 100%;
+}
+
+.profit-calc{
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 500px;
+  padding: 12px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  font-size: 16px;
+  .profit-row{
+    display: flex;
+    margin-top: 8px;
+    justify-content: flex-end;
+    align-items: center;
+    .label{
+      margin-right: 20px;
+      
+    }
+    
+  }
+}
+
+.summary{
+  margin-top: 20px;
+  .summary-row{
+    display: flex;
+    margin-top: 8px;
+    justify-content: flex-end;
+    .label{
+      
+      font-weight: bold;
+      margin-right: 20px;
+    }
+    .result{
+      min-width: 120px;
+    }
+    
+  }
+}
+
+.tiered-pricing{
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 240px;
+  border: 1px solid #000;
+  margin-top: 25px;
+  padding: 12px 20px 20px;
+  .pricing-row{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 8px;
+    .label{
+      margin-right: 20px;
+      font-weight: bold;
+    }
+  }
+}
